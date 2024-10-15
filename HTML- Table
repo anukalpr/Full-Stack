@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table in HTML</title>
+</head>
+<body>
+    <table>
+        <caption></caption>
+    <br>
+    <tr>
+        <th> Sno.</th>
+        <th>Items</th>
+        <th>Qty.</th>
+        <th>Amount</th>
+    </tr>
+    <tr>
+        <td>001.</td>
+        <td>Cement</td>
+        <td>10</td>
+        <td>320*10</td>
+    </tr>
+    <tr>
+        <td>002.</td>
+        <td>Rod</td>
+        <td>2</td>
+        <td>6500*2</td>
+    </tr>
+    <tr>
+        <td>003.</td>
+        <td>stone</td>
+        <td>2t</td>
+        <td>3600*2</td>
+    </tr>
+    </table>
+</body>
+</html>
