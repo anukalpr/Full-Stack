@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+     <style>
+        .c1{
+            font-size: 2px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-style: italic;
+        }
+        p{
+            /* text-shadow: 2px 2px red; */
+            text-align:start;
+            /* line-height:2px ; */
+        }
+     </style>
+</head>
+<body>
+    <div class="c1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eum eaque expedita voluptatibus, laborum odit, nemo veritatis sint minima odio laboriosam ipsa dolor illum, fugiat quisquam aut. Ab eveniet, maiores aperiam nihil culpa dolore beatae laboriosam sit nemo ipsum cumque corrupti nisi at voluptatum pariatur fuga ipsam sint! Autem, quos vitae accusamus reiciendis consequuntur corrupti delectus reprehenderit officia nobis accusantium, illum debitis cumque, ducimus asperiores ipsa libero at eaque quasi necessitatibus tenetur consequatur repellendus distinctio voluptatibus! Nemo ullam dolor a sequi hic recusandae, enim soluta numquam odio earum magnam dignissimos expedita deleniti omnis ut similique, mollitia inventore cupiditate incidunt praesentium!</p>
+    </div>
+</body>
+</html>
