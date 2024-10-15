@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+            *{
+                color:black;
+                background-image: url("Airplane.jpg");
+                background-repeat: repeat-x;
+                background-repeat: repeat-y;
+            }
+            /* element selector */
+            h1{
+                color: pink;
+            }
+            /* start class selector */
+            .maincont{
+                background-color:yellow;
+                /* background-color: rgb(255,0,0); *//*red */
+                /* background-color: rgb(255,255,0);*//*yellow */
+                /* background-color: #ffff00; *//*yellow*/
+            }
+            .container1{
+                color: green;
+                bottom: 2cm;
+                text-align: center;
+            }
+
+            /* or */
+
+            /* div{
+                color: blue;
+            } */
+
+            .container1{
+                background-color:whitesmoke;
+                border: 3cm;
+                border-color:black;
+            }
+            /* end class selector */
+            /* start Id selector */
+            #myId{
+                background-color: white;
+                color: rgb(22, 22, 240);
+            }
+            /* end Id selecor */
+
+            .container1{
+                color: red;
+            }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body class="maincont">
+    <div class="container1">
+        <!--<h1 style="color: blue;">My name is Anukalp!</h1>-->
+        <h1>Anukalp</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti modi, maiores dicta dolorum aliquid ab praesentium voluptas earum vitae delectus iste ipsum, asperiores esse laudantium odit consequatur, debitis fugit molestiae.</p>
+        <button type="submit" name="submit" style="color:red;">click me!</button>
+    </div>
+    <br>
+    <br>
+    <div id="myId">
+        <h2>My Document</h2>
+        <p><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, suscipit. Mollitia corporis similique iure. Illo repudiandae sint, aperiam libero excepturi amet vero optio hic iusto animi quae maiores temporibus officiis quas molestiae dolorum, praesentium repellat laborum, tempora ipsa. Perspiciatis culpa inventore consequatur est praesentium! Quos tempora voluptatem dolore nemo minus rem aut beatae ipsum in alias itaque blanditiis molestiae dignissimos nostrum architecto reprehenderit assumenda, aliquid laboriosam doloremque saepe unde repellendus? Illum nihil eos ut expedita eaque sed eligendi quos ad itaque aut, similique optio? Molestiae voluptatibus culpa quisquam facere inventore consequuntur quo dignissimos alias corporis. Sed tempora modi sint unde?</b></p>
+    </div>
+</body>
+</html>
