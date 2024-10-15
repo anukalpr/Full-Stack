@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .cont1{
+            position: relative;
+            top:100px;
+            left:100px;
+            /* margin-top: 100px;
+            margin-left: 100px; *//*similar to position relative*/
+            display: flex;
+            /* flex-direction:row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* justify-content:flex-start; */
+            /* justify-content:flex-end; */
+            /* justify-content:center; */
+            /* justify-content:space-around; */
+            /* justify-content: space-between; */
+            justify-content: space-evenly;
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: wrap; */
+            /* align-items: center;it set the content in the center of flex container */
+            /* align-items: flex-end; below the main axis*/
+            /* align-items: flex-start; above the main axis */
+            /* align-content:flex-start; */
+            /* align-content: center; */
+            /* align-content: flex-end; */
+            width:800px;
+            height:300px;
+            border:1px solid black;
+        }
+        #d1{
+            background-color: burlywood;
+            height:100px;
+            width:100px;
+            border:2px solid black;
+        }
+        #d2{
+            background-color: blueviolet;
+            height:100px;
+            width:100px;
+            border:2px solid black;
+        }
+        #d3{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont1">
+        <div id="d1">box1</div>
+        <div id="d2">box2</div>
+        <div id="d3">box3</div>
+    </div>
+</body>
+</html>
