@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* style q1 */
+        #box{
+            color: aliceblue;
+            background-color: blue;
+        }
+        .heading{
+            color:#ff0000
+        }
+        button{
+            background-color:rgb(0, 255, 0);
+        }
+        button{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- ques1 -->
+     <div id="box">
+        <h1>My Doc</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, ab!</p>
+        <b>myself:</b>
+        <blockquote>My name is anukalp raj.i am from sasaram bihar. Lorem ipsum dolor sit amet consectetur adipisicing elit.</blockquote>
+     </div>
+     <!-- ques2 -->
+     <h1 class="heading">Anukalp Singh</h1>
+     <h2 class="heading">Anu</h2>
+     <h3 class="heading">Life</h3>
+     <!-- ques3 -->
+     <button type="reset" name="reset" style="background-color:pink;">Reset</button>
+</body>
+</html>
