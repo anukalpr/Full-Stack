@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color:blue
+        }
+        p::first-letter{
+            color: red;
+            font-size: 50px;
+        }
+        p::selection{
+            background-color: yellow;
+        }
+        ::marker{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, soluta. Magni itaque quis exercitationem nemo rerum velit illo, consequuntur dolore laboriosam alias, recusandae officia ratione laudantium harum optio atque veritatis. Amet aperiam tempora ea facere eum quos cupiditate explicabo vero!</p>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ul>
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+    </ol>
+</body>
+</html>
