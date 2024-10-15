@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>Subjects in Science Stream:-</b>
+    <ul type="square"><!--unordered list:-we cannot alter the sequence-->
+        <li>Physics</li>
+        <li>Chemestry</li>
+        <li>Maths</li>
+        <li>Hindi</li>
+        <li>English</li>
+    </ul>
+    <b>Subjects in Science Stream:-</b>
+    <ol type="a"><!--ordered list:-we can alter the sequence-->
+        <li>Physics</li>
+        <li>Chemestry</li>
+        <li>Maths</li>
+        <li>Hindi</li>
+        <li>English</li>
+    </ol>
+    <b>Technologies:</b>
+    <ol>
+        <li>Frontend
+            <ul type="square">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>REACT</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul type="circle">
+                <li>Node</li>
+                <li>Deno</li>
+                <li>Django</li>
+            </ul>
+        </li>
+    </ol>
+    <b>Technologies:</b>
+    <ol type="A">
+        <li>Frontend
+            <ul type="square">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>REACT</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul type="circle">
+                <li>Node</li>
+                <li>Deno</li>
+                <li>Django</li>
+            </ul>
+        </li>
+    </ol>
+    <b>Technologies:</b>
+    <ol reversed="reversed">
+        <li>Frontend
+            <ul type="square">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>REACT</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul type="circle">
+                <li>Node</li>
+                <li>Deno</li>
+                <li>Django</li>
+            </ul>
+        </li>
+    </ol>
+    <b>Technologies:</b>
+    <ol start="3">
+        <li>Frontend
+            <ul type="square">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>js</li>
+                <li>REACT</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul type="circle">
+                <li>Node</li>
+                <li>Deno</li>
+                <li>Django</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
