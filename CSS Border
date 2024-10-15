@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:white;
+            opacity: 1;
+        }
+        div.c1{
+            background-color: darkkhaki;
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 100%;
+            margin-left: 20%;
+            margin-top: 20%;
+            margin-right: 20%;
+            margin-bottom: 20%;
+            padding-left: 10%;
+            padding-top: 20%;
+            padding-right: 10%;
+            padding-bottom: 20%;
+        }        
+        #name{
+            color: blue;
+            text-shadow: 2px,px,gree;
+            padding-left:30%;
+            text-decoration: underline;
+            text-transform: lowercase;
+            font-weight: 900;
+            font-family: verdana;
+            font-style: italic;
+            font-size: 170%;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"><h1 id="name">Anukalp Singh</h1></div>
+</body>
+</html
